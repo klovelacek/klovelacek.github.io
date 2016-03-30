@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">  
-  <head> 
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>ResumeDojo Blog Post - Template</title>
+
+    <title>Lovelace Design-Case Studies</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
     <!-- Font SourceSansPro -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,400italic' rel='stylesheet' type='text/css'>
     <!-- Animations -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mediaqueries.css">
+
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +32,7 @@
   <body>
     <!-- page-overlay -->
     <div id="overlay" >
-      <div class="loader"></div>  
+      <div class="loader"></div>
       <h1 class="animated pulse text-right"><b>howdy!</b></h1>
     </div>
     <!-- /.page-overlay -->
@@ -65,17 +68,16 @@
         </button>
         <a class="navbar-brand" href="index.html">
           <b class="logo-text">
-            Resume Dojo
-          </b>  
+            Lovelace Design
+          </b>
         </a>
       </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-right" id="top-menu">
               <ul class="nav navbar-nav text-uppercase text-center">
                 <li data-menuanchor="home"><a href="index.html" class="hvr-underline-from-left">About</a></li>
                 <li data-menuanchor="skills"><a href="index.html#skills" class="hvr-underline-from-left">Skills</a></li>
-                <li data-menuanchor="portofolio"><a href="index.html#portofolio" class="hvr-underline-from-left">Portofolio</a></li>
+                <li data-menuanchor="portofolio"><a href="index.html#portfolio" class="hvr-underline-from-left">Portfolio</a></li>
                 <li data-menuanchor="process"><a href="index.html#process" class="hvr-underline-from-left">Process</a></li>
                 <li data-menuanchor="experience"><a href="index.html#experience" class="hvr-underline-from-left">Experience</a></li>
                 <li data-menuanchor="info"><a href="index.html#info" class="hvr-underline-from-left">Info &#x00026; Facts</a></li>
@@ -89,21 +91,28 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div id="blog-content">  
+  <div id="blog-content">
 
     <header  class="one-page blog-header post-header">
         <div class="container">
           <div class="row">
-            <div class="col-md-offset-2 col-md-8 text-center section-intro">
-              <h2><b>Time Pieces That Never Get Old</b></h2>
-              <p>Watch Talk</p><br>
-              <small class="postDate">January 8, 2016 &#x00040; 15:18</small>
-
+            <div class="col-md-offset-5 col-md-2 text-center">
+              <div class="section-bg">
+                <p>
+                  <i data-icon="&#xe033;"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-4 col-md-4 text-center section-intro">
+              <h2><b>Case Studies</b></h2>
+              <span>Background on some projects</span>
             </div>
           </div>
         </div>
     </header>
-    
+
     <div class="container">
         <div class="row">
 
@@ -112,50 +121,49 @@
 
             <div class="row text-uppercase">
               <div class="col-md-12">
-                <p class="pull-left front-name">John Doe</p>
-                <p class="pull-right front-tags">Watches, Jewelry, Expensive, Tissot, Timepiece, Mechanical</p>
+                <p class="pull-left front-name">Sprocket Portal</p>
+                <p class="pull-right front-tags">Intranet app for American Tobacco Campus, Durham, NC</p>
               </div>
             </div>
 
             <div class="row text-uppercase">
               <div class="col-md-12">
-                <h3><b>H3 Subtitle</b></h3>
+                <h3><b>American Tobacco Campus Intranet Redesign</b></h3>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-md-12 post-intro">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                  pariatur.</p>
-              </div>
+              <div class="col-md-12 post-intro"></div>
             </div>
 
             <div class="row">
               <div class="col-md-12">
-                <img src="http://placehold.it/810x450" alt="post_big_Image" class="img-responsive">
+                <img src="images/atc-sprocket-main.jpg" alt="Sprocket dashboard" class="img-responsive">
               </div>
             </div>
 
             <div class="row">
               <div class="cited">
-                <p><i>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </i></p>
+                <h4><i>
+                  I was asked to develop a look and feel for the site. In doing so, I chose to draw inspiration from architectural design and signage.
+                </i></h4>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-md-12 content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <ul>
-                  <li>Ut enim ad minim veniam, quis nostrud</li>
-                  <li>Exercitation ullamco laboris nisi ut aliquip ex</li>
-                  <li>Ea commodo consequat</li>
-                </ul>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit   anim id est laborum.</p>
+              <div class="col-md-9 content">
+                <img src="images/atc-style.jpg" alt="Sprocket Style Guide" class="img-responsive">
               </div>
             </div>
 
+            <div class="row">
+              <div class="col-md-6 content">
+                <img src="images/atc-login.jpg" alt="Sprocket Style Guide" class="img-responsive">
+              </div>
+              <div class="col-md-6 content">
+                <img src="images/atc-dashboard.jpg" alt="Sprocket Style Guide" class="img-responsive">
+              </div>
+            </div>
             <div class="row about-author">
               <div class="col-sm-3 col-md-2">
                 <img src="http://placehold.it/90x90" alt="resume_blog_user_photo">
@@ -192,7 +200,7 @@
                 </ul>
               </div>
             </div>
-            
+
             <div class="row comments-count">
               <div class="col-md-offset-2 col-md-8 text-left">
                 <h2><b>2 Comments</b></h2>
@@ -206,7 +214,7 @@
                 <dt><span class="text-uppercase"> 12:00 pm</span></dt>
                 <dd class="comment-contain">
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit   anim id est laborum.
-                  </p> 
+                  </p>
                   <br>
                   <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -223,7 +231,7 @@
                 <dd class="comment-contain">
                   <a href="#" class="replyLink">Reply</a>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit   anim id est laborum.
-                  </p> 
+                  </p>
                   <br>
                   <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -260,22 +268,33 @@
               </div>
             </div>
 
-            
+
           </div>
           <!-- /.Blog Post Content -->
 
           <!-- SideBar -->
           <div class="col-md-3 side-bar">
-            <div class=" categories">
-              <h3><b>Categories</b></h3>
-              <ul class="list-unstyled text-uppercase text-left category-menu">
-                <li><a href="#" class="hvr-underline-from-left">Watch Resources</a></li>
-                <li><a href="#" class="hvr-underline-from-left">Quotes</a></li>
-                <li><a href="#" class="hvr-underline-from-left">International Sellers</a></li>
-                <li><a href="#" class="hvr-underline-from-left">Wallpapers</a></li>
-                <li><a href="#" class="hvr-underline-from-left">Images Galleries</a></li>
-                <li><a href="#" class="hvr-underline-from-left">Inspiration</a></li>
-              </ul>
+            <div class="categories">
+              <p class="post-content">
+                  <b>Client</b>: Topsail Technologies, Durham, North Carolina, USA<br><br>
+                  <b>About the project</b>: The former American Tobacco manufacturing plant in Durham, NC has been reborn into the American Tobacco
+                  District. It is anchored by one million square feet of multi-use space, including the Durham Performing Arts Center and the Durham
+                  Bulls Athletic Park.<br>
+                  Topsail Technologies was tasked with redesigning the American Tobacco Campus intranet with the intent to
+                  make it user-friendly and tie into several web-based apps the client had in place to handle things like parking,
+                  ID badges, and building maintenance requests.<br><br>
+                  <b>My Role</b>: I was asked to develop a look and feel for the site. In doing so, I chose to draw inspiration from architectural
+                  design and signage that makes this space unique a landmark and tourist attraction. After spending some time
+                  on the campus and speaking to people who worked there, we thought an online campus newsletter, featuring
+                  buy and sell classified and upcoming campus event and alerts sections would attract campus workers to the
+                  new intranet and keep them coming back.<br><br>
+                  <b>Assets developed</b>:<br>
+                  Sprocket Logo Mark<br>
+                  Intranet splash screen<br>
+                  Login interface<br>
+                  Intranet Home screen<br>
+                  Online Newsletter template
+              </p>
             </div>
 
             <div class=" tags">
@@ -340,29 +359,21 @@
           <!-- /.SideBar -->
         </div>
     </div>
-    
+
 
   </div>
 
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script><!-- for calendar script-->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.timeline.js"></script><!-- for horizontal animated timeline-->
-    <script src="js/owl.carousel.min.js"></script><!-- for clients & testimonials carousel -->
-    <script src="js/jquery.validate.min.js"></script><!-- form validation -->
-    <script src="js/typed.js"></script><!-- animated header text -->
-    <script src="js/wow.min.js"></script><!-- animation on scroll -->
-    <!-- Default functions -->
-    <script src="js/functions.js"></script>
-       
+  <script src="scripts/js/jquery-1.12.0.min.js"></script>
+  <script src="scripts/js/jquery-ui.min.js"></script><!-- for calendar script-->
+  <script src="scripts/js/bootstrap.min.js"></script>
+  <script src="scripts/js/jquery.fullpage.min.js"></script>
+  <script src="scripts/js/jquery.timeline.js"></script><!-- for horizontal animated timeline-->
+  <script src="scripts/js/owl.carousel.min.js"></script><!-- for clients & testimonials carousel -->
+  <script src="scripts/js/jquery.validate.min.js"></script><!-- form validation -->
+  <script src="scripts/js/typed.js"></script><!-- animated header text -->
+  <script src="scripts/js/wow.min.js"></script><!-- animation on scroll -->
+  <!-- Default functions -->
+  <script src="scripts/js/functions.js"></script>
+
   </body>
 </html>
-
-
-
-
-
-
-
-
-
