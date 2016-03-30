@@ -537,7 +537,12 @@ header:before{
 	-o-transition: background 0.2s linear;
 	transition: background 0.2s linear;
 }
-
+a {
+    color: inherit;
+}
+a, a:visited a:hover {
+	text-decoration: none !important;
+}
 /*** portofolio content ***/
 .portofolio-wrapp .dribble-shot{
 	position: relative;
@@ -803,7 +808,10 @@ header:before{
 /***************************************
 			4.8 Info & Facts
 ****************************************/
-#section5 h2{margin: 15px 0 5px 0}
+#section5 h2{
+	margin: 15px 0 5px 0;
+	height: 2500px !important;
+}
 
 /***** Vertical timeline *****/
 .cbp_tmtimeline {
@@ -847,8 +855,8 @@ header:before{
 .cbp_tmtimeline > li .cbp_tmlabel {
 	color: #333;
 	padding: 15px 0;
-	font-size: 14px;
-	line-height: 1.4;
+	font-size: 15px;
+	line-height: 1.5;
 	position: relative;
 	top: 8px;
 	left: 30px;
@@ -971,7 +979,7 @@ header:before{
 	/***************************************
 				4.10.2 Blog SideBar
 	****************************************/
-	.categories h3{margin: 56px 0 25px 0}
+	.categories h4{margin: 56px 0 25px 0}
 	.category-menu a{
 		display: block;
 		margin: 15px 0 15px 0;
@@ -1075,19 +1083,19 @@ header:before{
 	.post-content{
 		padding: 30px;
 		margin: 60px 0;
-		letter-spacing: 1.2px;
+		letter-spacing: 0.04rem;
 		line-height: 1.6;
 	}
 	.post-content .col-md-8{padding:0 0 0 45px}
 
-	.post-content h3{margin-bottom: 30px}
+	.post-content h3{margin-bottom: 6px}
 	.post-content img.img-responsive{
 		width: 100%;
 		margin: 20px 0 30px 0;
 	}
 
 	.post-content .cited{
-		padding: 50px;
+		padding: 38px;
 		margin: 0 auto 30px auto;
 		width: 96%;
 		border-left: 6px solid #ccc;
@@ -1806,7 +1814,7 @@ header:before{
 }
 
 .blog-header{
-	background: url("http://placehold.it/1920x1080") no-repeat;
+	background: url("") no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -1865,6 +1873,9 @@ header:before{
 	-webkit-animation: fadeInUp 0.3s linear;
 	-o-animation: fadeInUp 0.3s linear;
 	animation: fadeInUp 0.3s linear;
+}
+ul.list-inline li a {
+	text-align: center !important;
 }
 
 .hover-shot span, .hover-shot .fa{

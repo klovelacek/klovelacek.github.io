@@ -37,7 +37,7 @@ $(document).ready(function(){
 		sectionSelector: '.one-page',
 		slideSelector: false,
 		menu: '#top-menu',
-		anchors: ['home', 'skills', 'portofolio', 'process', 'experience', 'info', 'testimonials', 'prices', 'latest-blog', 'calendar', 'contacts'],
+		anchors: ['home', 'skills', 'portfolio', 'case-studies', 'experience', 'info', 'testimonials', 'prices', 'latest-blog', 'calendar', 'contacts'],
 		keyboardScrolling: true,
 		scrollBar: true,
 
@@ -158,7 +158,7 @@ if ($('.hover-shot').length > 0){
 ********************************************************/
 $(function(){
       $(".animated-intro").typed({
-        strings: ["I'm <b>56</b>. I live in <b>Charlotte, North Carolina</b>. <br> <b>I'm a Visual Designer. </b>  I use images concepts and words to create memorable user experiences. ",
+        strings: ["I'm <b>Kent</b>. I live in <b>Charlotte</b>, North Carolina. <br> <b>I'm a Visual Designer. </b>  I use images concepts and words to create memorable user experiences. ",
         		  "I love <b>playnig Tennis</b> and being<br> the father of one <b>awesome child!</b>",
         		  "I'm also a <b>Woodworker.</b> <br> I like to design and build stuff."], 			//just write what text you want to appear
         typeSpeed: 0,
